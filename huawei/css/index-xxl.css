@@ -1,0 +1,23 @@
+
+.l1{
+    left:66%;
+    top:57%;
+    padding: 10px 30px;
+    min-width: 180px;
+}
+.banner1-2{
+    display: none;
+}
+.l2{
+    width:13vw;
+    left:13%;
+    top:43%;
+    padding: 10px 30px;
+    min-width: 180px;
+}
+ /*morenews*/
+ .l3,
+ .l4{
+    width:128px;
+    height:38px;
+ }
