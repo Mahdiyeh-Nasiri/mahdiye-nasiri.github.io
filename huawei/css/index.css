@@ -161,7 +161,6 @@ h4{
 
   ul.horizontal-border-bottom li {
     flex: 1;
-    padding: 10px;
     border-bottom: 2px solid  rgb(151, 146, 146);
     box-sizing: border-box;
   }
