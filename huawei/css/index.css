@@ -146,9 +146,10 @@ h4{
  .scrollspyHeading{
     color: #000000;
  }
+
  .line{
     height:2px;
-    background-color: rgb(151, 146, 146);
+    background-color:  rgba(151, 146, 146, 0.307);
  }
 
  ul.horizontal-border-bottom {
@@ -161,6 +162,6 @@ h4{
 
   ul.horizontal-border-bottom li {
     flex: 1;
-    border-bottom: 2px solid  rgb(151, 146, 146);
+    border-bottom: 2px solid  rgba(151, 146, 146, 0.307);
     box-sizing: border-box;
   }
