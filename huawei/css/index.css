@@ -10,11 +10,8 @@ ol{
 }
 li{
     font-family: sans-serif;
-    color: black;
     font-style:normal;
-	font-weight: bold;  
-} 
-
+}
 /*navbar
 .navbar-nav .nav-link {
     position: relative;
@@ -54,21 +51,15 @@ li{
         width:13vw;
         font-size: 0.875em;
     }
-    button:hover{
+    .l1:hover,
+    .l2:hover,
+    .l3:hover,
+    .l4:hover{
         background-color: #dc3545;
         border-color: #dc3545;
         color:white;
     }
 /* whats new*/
-h2 {
-    text-align: center;
-    line-height: 30px;
-    font-family: sans-serif;
-	font-weight: bold;
-    text-transform: capitalize;
-    color: black;
-    max-width: 80%;
-}
 .what{
     margin-left: auto;
     margin-right: auto;
@@ -82,11 +73,11 @@ h2 {
     top: 100%;
     left:47%;
 }
+/*gallery*/
 p {
     text-align: justify;
     line-height: 20px;
     font-family: sans-serif;
-    text-transform: capitalize;
     color: white;
     bottom: 20%;
 }
