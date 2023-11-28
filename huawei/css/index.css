@@ -137,6 +137,19 @@ h4{
  .scrollspyHeading{
     color: #000000;
  }
+ #navbar-example2{
+    display: none;
+ }
+ .scroll{
+    border:1px solid  rgba(138, 133, 133, 0.307);;
+ }
+ .rowbutton{
+    top: 80px;
+    bottom: 80px;
+    padding-bottom: 70px;
+    padding-top: 20px;
+ }
+ 
 
  .line{
     height:2px;

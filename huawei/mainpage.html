@@ -187,7 +187,7 @@
                 </div>
         </div>
 <!--  row ==> news --> 
-        <div class="row mb-4 px-0 mx-0 mt-3">
+        <div class="row rownews px-0 mx-0 mt-3 mb-5 position-relative">
             <div class="col-4">
                 <div class="card">
                     <img src="images/jpg/yalong-river-solar-hydro-2.jpg" class="card-img-top" alt="...">
@@ -206,32 +206,52 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4 bg-light ps-1">
-                <div data-bs-spy="scroll" data-bs-target="scrollspyHeading" data-bs-offset="10" class="scrollspy-example" tabindex="0">
-                    <h4 class="scrollspyHeading">Huawei unveils joint fellowship with ITU, makes strides in digital inclusion</h4>
-                    <p class="scrollspyHeading">
+            <div class="col-4 bg-light ps-1 position-relative overflow-y-scroll scroll">
+                <nav id="navbar-example2" class="navbar bg-light px-3 mb-3">
+                    <a class="navbar-brand" href="#">Navbar</a>
+                    <ul class="nav nav-pills">
+                      <li class="nav-item">
+                        <a class="nav-link" href="#scrollspyHeading1">First</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#scrollspyHeading2">Second</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
+                          <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </nav>
+                <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-light p-3 rounded-2" tabindex="0">
+                    <h5 id="scrollspyHeading1" class="text-dark text-capitalize">Huawei unveils joint fellowship with ITU, makes strides in digital inclusion</h5>
+                    <p class="text-dark text-uppercase fs-6 small fst-normal">
                         NOV 21, 2023
                         </p>
-                    <h4 class="scrollspyHeading"> Huawei and MTN South Africa Win "2023 Sustainability Champion Award" by AfricaCom</h4>
-                    <p class="scrollspyHeading">
+                    <h5 id="scrollspyHeading2" class="text-dark text-capitalize"> Huawei and MTN South Africa Win "2023 Sustainability Champion Award" by AfricaCom</h5>
+                    <p class="text-dark text-uppercase">
                         NOV 21, 2023
                         </p>
-                    <h4 class="scrollspyHeading">Huawei holds Africa 5G Summit at Africacom </h4>
-                    <p class="scrollspyHeading">NOV 17, 2023</p>
-                    <h4 class="scrollspyHeading">Huawei’s ICT innovations help unleash Europe's digital potential </h4>
-                    <p class="scrollspyHeading">NOV 16, 2023</p>
+                    <h5 id="scrollspyHeading3" class="text-dark text-capitalize">Huawei holds Africa 5G Summit at Africacom </h5>
+                    <p class="text-dark text-uppercase">NOV 17, 2023</p>
+                    <h5 id="scrollspyHeading4" class="text-dark text-capitalize">Huawei’s ICT innovations help unleash Europe's digital potential </h5>
+                    <p class="text-dark text-uppercase">NOV 16, 2023</p>
                 </div>
             </div>
         </div>  
 <!--button-->
-        <div class="row mb-5">
+        <div class="row mb-5 mt-5 position-relative rowbutton">
             <div class="col-12 d-flex justify-content-center align-items-center">
                 <button type="button" class="l3 col-6 text-center text-capitalize text-nowrap lh-1 me-3">more events</button>
                 <button type="button" class="l4 col-6 text-center text-capitalize text-nowrap lh-1">more news</button>
             </div>
         </div>
 <!-- Footer -->
-    <footer class="bg-light px-1">
+    <footer class="bg-light px-1 mt-5">
         <div class="row py-3 mx-0">
             <div class="offset-1 col-6">
                 <p class="text-muted">
