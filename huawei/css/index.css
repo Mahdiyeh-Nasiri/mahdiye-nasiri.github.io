@@ -140,10 +140,6 @@ h4{
  #navbar-example2{
     display: none;
  }
- /*.scroll,
- .news2{
-    height: 23vw;
- }*/
  .scroll{
     border:1px solid  rgba(138, 133, 133, 0.307);
  }
