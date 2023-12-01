@@ -1,3 +1,12 @@
+@font-face {
+    font-family: "Huawei Sans";
+    src: url("https://db.onlinewebfonts.com/t/08dd84ac7cbc31484a901d60c8c2c205.eot");
+    src: url("https://db.onlinewebfonts.com/t/08dd84ac7cbc31484a901d60c8c2c205.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/08dd84ac7cbc31484a901d60c8c2c205.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/08dd84ac7cbc31484a901d60c8c2c205.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/08dd84ac7cbc31484a901d60c8c2c205.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/08dd84ac7cbc31484a901d60c8c2c205.svg#Huawei Sans")format("svg");
+}
 *{
     padding: 0;
     margin: 0;
@@ -9,8 +18,40 @@ ol{
     list-style: none;
 }
 li{
-    font-family: sans-serif;
     font-style:normal;
+}
+
+
+html,
+body {
+    font-family: "Huawei Sans";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Huawei Sans";
+    font-weight: normal !important;
+}
+
+.col-item * {
+    font-family: "Huawei Sans";
+}
+
+.content-box .panel-img-box .text-box .name,
+.col-item .textbox .title,
+.news-item a h4 {
+    font-family: "Huawei Sans";
+    font-weight: normal !important;
+}
+
+@media (min-width: 992px) {
+    .index-banner .slick .slide a.btn-more {
+        min-width: 180px;
+    }
 }
 /*navbar
 .navbar-nav .nav-link {
@@ -177,9 +218,9 @@ h4{
 
 
   .social{
-  color: rgb(98, 111, 124);
+  color: rgb(106, 118, 131);
   }
   .social:hover{
-   color: black;
+   color:rgb(71, 68, 68);
   }
   
