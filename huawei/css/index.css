@@ -188,6 +188,13 @@ h4{
  .scroll{
     border:1px solid  rgba(138, 133, 133, 0.307);
  }
+ .scroll p{
+    color:rgb(58, 57, 57);
+}
+ .scrollho:hover h5,
+ .scrollho:hover p{
+    color:#dc3545;
+ }
  .rowbutton{
     top: 80px;
     bottom: 80px;
