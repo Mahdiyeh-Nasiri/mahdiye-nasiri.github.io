@@ -5,9 +5,6 @@
     padding: 10px 30px;
     min-width: 180px;
 }
-.banner1-2{
-    display: none;
-}
 .gallery2{
     display:none;
 }
@@ -17,6 +14,15 @@
     top:43%;
     padding: 10px 30px;
     min-width: 180px;
+}
+.content:hover .mask{
+    top:52%;
+}
+.content:hover .mask2{
+    top:42%;
+}
+.content:hover .mask4{
+    top:62%;
 }
  /*morenews*/
  .l3,

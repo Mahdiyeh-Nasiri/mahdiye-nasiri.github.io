@@ -17,30 +17,10 @@ ul,
 ol{
     list-style: none;
 }
-li{
-    font-style:normal;
-}
-
-
 html,
 body {
     font-family: "Huawei Sans";
 }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: "Huawei Sans";
-    font-weight: normal !important;
-}
-
-.col-item * {
-    font-family: "Huawei Sans";
-}
-
 .content-box .panel-img-box .text-box .name,
 .col-item .textbox .title,
 .news-item a h4 {
