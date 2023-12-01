@@ -174,7 +174,12 @@ h4{
   .accordion-button:not(.collapsed) {
     background-color: 	RGB(248, 249, 250);
   }
-  .socia:hover{
-    background-color: rgb(65, 63, 63);
+
+
+  .social{
+  color: rgb(98, 111, 124);
+  }
+  .social:hover{
+   color: black;
   }
   
