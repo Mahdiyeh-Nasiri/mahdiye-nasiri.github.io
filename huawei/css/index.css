@@ -175,6 +175,10 @@ h4{
     border:1px solid black;
  }
  /*news*/
+ .rownews i{
+    font-family: sans-serif;
+    font-style: normal;
+ }
  .scrollspyHeading{
     color: #000000;
  }
