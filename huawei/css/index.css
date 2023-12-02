@@ -77,6 +77,10 @@ body {
       .bi-chevron-down{
         display: none;
     } 
+
+   .navbar-toggler{
+    border:none;
+    }
 /* banner learn more*/
     .l1{
         width:13vw;
@@ -91,18 +95,10 @@ body {
         color:white;
     }
 /* whats new*/
-.what{
-    margin-left: auto;
-    margin-right: auto;
-}
-.what::after {
-    content:'';
+.whatline {
     width: 46px;
     height: 2px;
     background-color: #c7000b;
-    position: absolute;
-    top: 100%;
-    left:47%;
 }
 /*gallery*/
 p {
