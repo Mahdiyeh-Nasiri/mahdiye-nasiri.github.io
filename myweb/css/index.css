@@ -4,3 +4,8 @@
     background-size: cover;
     background-position: center;
 }
+.btn1{
+    background-color: rgb(199, 59, 199);
+    border: none;
+    border-radius: 0;
+}
