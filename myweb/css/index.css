@@ -117,3 +117,6 @@ html,body{
 .boxes:hover{
     border:1.5px solid rgb(132, 40, 212);
 }
+.gallery1{
+    top:50%;
+}
