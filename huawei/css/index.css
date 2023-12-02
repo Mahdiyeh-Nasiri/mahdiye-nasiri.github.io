@@ -7,6 +7,16 @@
     url("https://db.onlinewebfonts.com/t/08dd84ac7cbc31484a901d60c8c2c205.ttf")format("truetype"),
     url("https://db.onlinewebfonts.com/t/08dd84ac7cbc31484a901d60c8c2c205.svg#Huawei Sans")format("svg");
 }
+@media all and (max-width:340px) {
+    .brrrrrr {
+        display: block;
+    }
+}
+@media all and (min-width:340px) {
+    .brrrrrr {
+        display: none;
+    }
+}
 *{
     padding: 0;
     margin: 0;
@@ -162,9 +172,6 @@ h4{
  .scrollspyHeading{
     color: #000000;
  }
- #navbar-example2{
-    display: none;
- }
  .scroll{
     border:1px solid  rgba(138, 133, 133, 0.307);
  }
@@ -206,7 +213,9 @@ h4{
   .accordion-button:not(.collapsed) {
     background-color: 	RGB(248, 249, 250);
   }
-
+.go-right{
+    aniiaitooooooooooooooooooooooooooooooooooooooooooooooooooooon
+}
 
   .social{
   color: rgb(106, 118, 131);
