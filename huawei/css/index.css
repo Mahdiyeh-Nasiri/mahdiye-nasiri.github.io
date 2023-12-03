@@ -215,12 +215,14 @@ h4{
     height: 44px;
     bottom: 20%;
     right: 0;
+    z-index: 2000;
   }
   .answer{
     background-color: rgb(226, 69, 69);
     width: 44px;
     height: 44px;
-    bottom: 25%;
+    bottom: 28%;
     right: 0;
+    z-index: 2000;
   }
   
