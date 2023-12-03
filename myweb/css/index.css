@@ -123,3 +123,6 @@ html,body{
 .gallery1 img{
     height:410px;
 }
+.btn-outline-primary{
+    border-radius: 0;
+}
