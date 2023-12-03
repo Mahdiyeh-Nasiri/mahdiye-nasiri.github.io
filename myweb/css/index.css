@@ -120,3 +120,6 @@ html,body{
 .gallery1{
     top:50%;
 }
+.gallery1 img{
+    height:410px;
+}
